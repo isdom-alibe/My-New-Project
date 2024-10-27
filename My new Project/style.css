@@ -1,0 +1,71 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text for main content */
+}
+
+.hidden {
+    display: none; /* Class to hide elements */
+}
+
+.message {
+    font-size: 2em; /* Increase text size */
+    position: absolute; /* Position text in the center */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position */
+}
+
+.title-box {
+    background-color: #0000FF; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 20px; 
+    text-align: center; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px; 
+}
+
+.head-two {
+    color: purple;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.head-three {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.head-four {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+.head-five {
+    color: aqua;
+    text-decoration: underline;
+}
+
+button {
+    font-family: algerian;
+    color: green;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    background-color: red;
+    color: black;
+    
+}
+
+.title-text {
+    font-family: algerian;
+    color: green;
+
+}
